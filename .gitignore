@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.turbo/
+*.log
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Make lifecycle: pidfiles and logs
+.run/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Cache that we DO want to keep tracked: backend/data/seed_shapes/*.json
+# (those are the snapshot of real shape profiles — committed intentionally)

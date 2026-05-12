@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background:
+    radial-gradient(1100px 600px at 80% -10%, rgba(124, 92, 255, 0.12), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgba(122, 215, 195, 0.07), transparent 60%),
+    #07080d;
+  color: #e7e9f1;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(124, 92, 255, 0.35);
+}
+
+.card {
+  @apply rounded-2xl border border-ink-700 bg-ink-900/60 backdrop-blur p-5;
+}
+
+.card-hover {
+  @apply transition-all duration-200 hover:border-ink-600 hover:bg-ink-800/70 hover:-translate-y-0.5;
+}
+
+.pill {
+  @apply inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded-full;
+}
+
+.gauge-track {
+  background: linear-gradient(90deg, rgba(255,255,255,0.04), rgba(255,255,255,0.08));
+}
