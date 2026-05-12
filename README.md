@@ -12,6 +12,11 @@ A dark, polished dashboard that visualizes what makes group rooms engaging:
 who is talking, how human-vs-AI the room feels, the volume rhythm across a week,
 and the vibe each room settles into.
 
+<img width="1973" height="1158" alt="image" src="https://github.com/user-attachments/assets/c78397d5-cd19-4a24-aaac-8c542a38d422" />
+
+<img width="2008" height="1166" alt="image" src="https://github.com/user-attachments/assets/d4d88b9b-1038-4bfe-a006-a7858770e028" />
+
+
 ## What's real, what's not
 
 The shapes.inc developer API exposes only one anonymous endpoint —
