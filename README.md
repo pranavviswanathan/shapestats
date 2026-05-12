@@ -129,11 +129,6 @@ Railway/Fly/Render (backend). Both are standard deploy targets:
   `uvicorn app.main:app --host 0.0.0.0 --port $PORT`. Set
   `SHAPESTATS_CORS_ORIGINS` to your frontend URL.
 
-Once live, swap the badge:
-
-```markdown
-[![Live demo](https://img.shields.io/badge/demo-live-7c5cff)](https://your-deploy.vercel.app)
-```
 
 ## Design notes
 
